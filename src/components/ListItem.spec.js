@@ -1,5 +1,5 @@
 import { config } from "@vue/test-utils";
-import { createLocalVue, shallowMount, mount } from "@vue/test-utils";
+import { createLocalVue, mount } from "@vue/test-utils";
 import Vuex from "vuex";
 import ElementUI from "element-ui";
 import ListItem from "@/components/ListItem";

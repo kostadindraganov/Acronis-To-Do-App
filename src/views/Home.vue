@@ -63,6 +63,9 @@
     },
     created() {
       this.$store.dispatch(GET_CURRENT_LIST).then(res => {
+        if (res) {
+          ///check response return status ok
+        }
         this.loading = false;
       });
     },
@@ -72,6 +75,9 @@
           this.loading = true;
           const newItem = { title: this.title, state: false };
           this.$store.dispatch(GET_ADD_ITEM, newItem).then(res => {
+            if (res) {
+              ///check response return status ok
+            }
             this.loading = false;
             this.$store.dispatch(GET_CURRENT_LIST);
             this.title = "";

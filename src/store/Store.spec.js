@@ -10,7 +10,6 @@ import {
 } from "./mutation-types";
 
 describe("actions", () => {
-	let setDataMock;
 	let id;
 
 	it("GET_ADD_ITEM", () => {
@@ -37,6 +36,9 @@ describe("actions", () => {
 
 	it("GET_DELETE_ITEM", () => {
 		return store.dispatch(GET_DELETE_ITEM, id).then(res => {
+			if (res) {
+				///check response return status ok
+			}
 			let hasItem = store.state.currentList.indexOf(
 				store.state.currentList[id]
 			);

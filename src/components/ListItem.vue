@@ -60,6 +60,9 @@
       deleteItem() {
         this.loading = true;
         this.$store.dispatch(GET_DELETE_ITEM, this.itemId).then(res => {
+          if (res) {
+            ///check response return status ok
+          }
           this.loading = false;
           this.$store.dispatch(GET_CURRENT_LIST);
         });
@@ -68,6 +71,9 @@
         this.loading = true;
         const item = { id: this.itemId, title: this.title, state: this.checked };
         this.$store.dispatch(GET_EDIT_ITEM, item).then(res => {
+          if (res) {
+            ///check response return status ok
+          }
           this.loading = false;
           this.$store.dispatch(GET_CURRENT_LIST);
         });
@@ -77,6 +83,8 @@
 </script>
 <style  lang="scss" scoped>
   .item-left {
+    color: #727272;
+    line-height: 20px;
     text-align: left;
     padding-left: 0px;
   }
