@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem.vue renders correctly 1`] = `
+<div
+  class="el-card card-item-wrapper is-hover-shadow bg-off"
+>
+  <!---->
+  <div
+    class="el-card__body"
+  >
+    <div
+      class="el-row is-justify-space-between is-align-middle el-row--flex"
+    >
+      <div
+        class="item-left el-col el-col-24 el-col-xs-1 el-col-sm-1 el-col-md-1 el-col-lg-1 el-col-xl-1"
+      >
+        <label
+          class="el-checkbox"
+          role="checkbox"
+        >
+          <span
+            aria-checked="mixed"
+            class="el-checkbox__input"
+          >
+            <span
+              class="el-checkbox__inner"
+            />
+            <input
+              aria-hidden="true"
+              class="el-checkbox__original"
+              type="checkbox"
+              value=""
+            />
+          </span>
+          <!---->
+        </label>
+      </div>
+       
+      <div
+        class="item-left el-col el-col-24 el-col-xs-19 el-col-sm-22 el-col-md-22 el-col-lg-22 el-col-xl-22"
+      >
+        <span>
+          test
+        </span>
+      </div>
+       
+      <div
+        class="item-right el-col el-col-24 el-col-xs-1 el-col-sm-1 el-col-md-1 el-col-lg-1 el-col-xl-1"
+      >
+        <i
+          class="el-icon-close"
+          style="display: none;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

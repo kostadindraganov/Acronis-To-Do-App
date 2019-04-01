@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue renders correctly 1`] = `
+<div
+  class="el-row is-justify-center is-align-middle el-row--flex"
+>
+  <div
+    class="el-col el-col-24 el-col-xs-24 el-col-sm-22 el-col-md-20 el-col-lg-20 el-col-xl-22"
+  >
+    <div
+      class="el-card box-card is-always-shadow"
+    >
+      <!---->
+      <div
+        class="el-card__body"
+      >
+        <div
+          class="el-row is-justify-space-around is-align-middle el-row--flex"
+          style="margin-left: -15px; margin-right: -15px;"
+        >
+          <div
+            class="el-col el-col-22"
+            style="padding-left: 15px; padding-right: 15px;"
+          >
+            <div
+              class="el-input el-input--suffix"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                placeholder="Please input the activity"
+                type="text"
+              />
+              <!---->
+              <!---->
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            class="el-col el-col-2"
+            style="padding-left: 15px; padding-right: 15px;"
+          >
+            <button
+              class="el-button add-item-btn hidden-sm-only el-button--primary is-disabled"
+              disabled="disabled"
+              type="button"
+            >
+              <!---->
+              <!---->
+              <span>
+                Add
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="el-card card-item-wrapper is-hover-shadow"
+    >
+      <!---->
+      <div
+        class="el-card__body"
+      >
+        <strong>
+          No items
+        </strong>
+      </div>
+    </div>
+  </div>
+</div>
+`;

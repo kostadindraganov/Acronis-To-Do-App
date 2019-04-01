@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue App.vue renders correctly 1`] = `
+<section
+  class="el-container is-vertical"
+  id="app"
+>
+  <header
+    class="el-header custom-shadow"
+    style="height: 70px;"
+  >
+    <div
+      class="header-menu el-row is-align-middle el-row--flex"
+      height="70px"
+    >
+      <div
+        class="el-col el-col-3"
+      >
+        <a>
+          <button
+            class="el-button el-button--text el-button--medium"
+            type="button"
+          >
+            <!---->
+            <!---->
+            <span>
+              About
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </header>
+   
+  <main
+    class="el-main"
+  />
+</section>
+`;

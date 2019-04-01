@@ -1,0 +1,61 @@
+html,
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 18px;
+	line-height: 16px;
+	font-weight: 400;
+	margin: 0px;
+	background-color: #e9eef3;
+	* {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizeLegibility;
+		outline: none;
+	}
+
+	a {
+		text-decoration: none;
+		outline: none;
+	}
+	ul,
+	li {
+		list-style-type: none;
+	}
+	p {
+		color: #c5c5c5;
+		line-height: 20px;
+		text-align: left;
+	}
+	strong {
+		color: #c5c5c5;
+		text-align: center;
+	}
+
+	#app {
+		.custom-shadow {
+			-webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+			box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+		}
+		.el-header {
+			background-color: #fff;
+			min-height: 70px;
+			color: #333;
+			text-align: center;
+			.header-menu {
+				height: 100%;
+				font-size: 20px;
+			}
+		}
+		.el-main {
+			margin-top: 30px;
+			padding: 10px;
+			text-align: center;
+		}
+	}
+}
