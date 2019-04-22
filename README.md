@@ -1,4 +1,4 @@
-# Acronis-To-Do-App
+#To-Do-App
 
 ## Project setup
 
